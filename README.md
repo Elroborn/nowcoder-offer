@@ -1,2 +1,2 @@
 # nowcoder-offer
-剑指offer c/Java实现
+牛客网剑指offer c/Java实现
