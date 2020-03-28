@@ -1,18 +1,7 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<vector>
-using namespace std;
-// Á´½Ó£ºhttps://www.nowcoder.com/questionTerminal/459bd355da1549fa8a49e350bf3df484?f=discussion
-// À´Ô´£ºÅ£¿ÍÍø
 
-// dp[i]±íÊ¾ÒÔÔªËØarray[i]½áÎ²µÄ×î´óÁ¬Ğø×ÓÊı×éºÍ.
-// ÒÔ[-2,-3,4,-1,-2,1,5,-3]ÎªÀı
-// ¿ÉÒÔ·¢ÏÖ,
-// dp[0] = -2
-// dp[1] = -3
-// dp[2] = 4
-// dp[3] = 3
-// ÒÔ´ËÀàÍÆ,»á·¢ÏÖ
-// dp[i] = max{dp[i-1]+array[i],array[i]}.
+using namespace std;
 class Solution {
 public:
     int FindGreatestSumOfSubArray(vector<int> array) {
@@ -27,7 +16,7 @@ public:
 };
 
 int main(){
-	int arr[] = {6,-3,-2,7,-15,1,2,2};
+	int arr[] = {100,6,-3,-2,7,-15,1,2,2};
 	vector<int> a(arr,arr+8);
 	cout<<Solution().FindGreatestSumOfSubArray(a);
 	return 0;
