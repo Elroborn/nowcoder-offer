@@ -28,4 +28,5 @@ int main(){
 	vector<int> res = Solution().GetLeastNumbers_Solution(input,10);
 	cout<<res[0];
 	cout<<res[1];
+	return 0;
 }

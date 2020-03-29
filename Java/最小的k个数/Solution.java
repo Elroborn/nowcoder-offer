@@ -6,6 +6,7 @@ public class Solution {
         if(k>input.length){
             return res;
         }
+        
         for(int i=0;i<k;i++){
             for(int j=input.length-1;j>i;j--){
                 if(input[j]<input[j-1]){
@@ -20,6 +21,6 @@ public class Solution {
     }
     public static void main(String[] args) {
         int arr[] = {4,5,1,6,2,7,3,8};
-        System.out.println(new Solution().GetLeastNumbers_Solution(arr,20));
+        System.out.println(new Solution().GetLeastNumbers_Solution(arr,2));
     }
 }
