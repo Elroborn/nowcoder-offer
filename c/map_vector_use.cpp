@@ -95,7 +95,7 @@ void map_use(){
 }
 
 int main(){
-    // vector_use();
+    vector_use();
     // map_use();
 
     return 0;
