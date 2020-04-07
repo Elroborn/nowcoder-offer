@@ -23,10 +23,9 @@ public class Solution {
 			}else{
 				return 0;
 			}
-			System.out.println(res);
-			System.out.println((is_minus<0) && (-res < Integer.MIN_VALUE));
+
 			if( ((is_minus>0) && (res > Integer.MAX_VALUE)) ||
-							((is_minus<0) && (-res < Integer.MIN_VALUE))) //溢出
+							((is_minus<0) && (res < Integer.MIN_VALUE))) //溢出
 						{
 							res = 0;
 							break;
