@@ -12,6 +12,12 @@ public class Solution {
         return count;
     }
     public static void main(String[] args) {
-        System.out.println(new Solution().NumberOf1(2));
+        int flag = 1;
+        while (flag != 0) {
+            System.out.println(flag);
+            flag = flag << 1;
+        }
+        System.out.println(flag);
+        // System.out.println(new Solution().NumberOf1(-5));
     }
 }
